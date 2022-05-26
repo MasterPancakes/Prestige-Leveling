@@ -1,6 +1,7 @@
 # Informations
 A Discord level bot template taken from Duckfat on Autocode
 You can find the original page [here](https://autocode.com/Duckfat/apps/prestige-leveling/).
+Access bot images [here](https://photos.app.goo.gl/2Vch5VqoPknQ4T6ZA)
 
 # Prestige Leveling
 [Click me to access the spreadsheet](https://docs.google.com/spreadsheets/d/1AMdeZDmCbTThC2uWw7OE1vsCdKcvmD_j6A5ufGoNx2c/edit?usp=sharing)
