@@ -1,0 +1,41 @@
+{
+  "name": "duckfat/prestige-leveling",
+  "timeout": 30000,
+  "connector": false,
+  "events": {
+    "functions/events/discord/command/level.js": {
+      "name": "discord.command",
+      "subtype": {
+        "command": "level"
+      }
+    },
+    "functions/events/discord/message/create.js": {
+      "name": "discord.message.create"
+    },
+    "functions/events/discord/command/leaderboard.js": {
+      "name": "discord.command",
+      "subtype": {
+        "command": "leaderboard"
+      }
+    },
+    "functions/events/discord/command/give-level.js": {
+      "name": "discord.command",
+      "subtype": {
+        "command": "give-level"
+      }
+    },
+    "functions/events/autocode/self/deployed.js": {
+      "name": "autocode.self.deployed"
+    }
+  },
+  "env": [
+    {
+      "name": "GUILD_ID",
+      "description": "ID of your server"
+    },
+    {
+      "name": "LEVEL10_ROLE_ID",
+      "description": "This is the ID of the role users will receive once they get level 10"
+    }
+  ]
+}
